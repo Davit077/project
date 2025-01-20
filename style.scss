@@ -21,44 +21,48 @@ li {
     justify-content: space-between;
     font-size: 10px;
     position: fixed;
-    gap: 35pc;
+    gap: 30pc;
+    margin-left: -26pc;
     padding-top: 4%;
-}
-.search input{
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-}
-    ul {
-      display: flex;
-      gap: 40px;
-    }
-    h2 {
-      font-weight: 100;
-    }
-    .lof {
-    margin-left: -70%;
-    }
+    z-index: 999;
   }
-  input nav{
+  .search input {
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
-    width: 110px;
-    height: 30px;
-    padding: 0px;
   }
-  .search button {
-    width: 30px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    background-color: #000000;
-    height: 34px;
-    padding: 0px;
+  ul {
+    display: flex;
+    gap: 40px;
   }
+  h2 {
+    font-weight: 100;
+  }
+  .lof {
+    padding-left: 1px;
+  }
+}
+input nav {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 110px;
+  height: 30px;
+  padding: 0px;
+}
+.search button {
+  width: 30px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #000000;
+  height: 34px;
+  padding: 0px;
+}
 .search {
-  display: flex;
-  margin-left: -10pc;
-  padding-left: 99%;
-  margin-bottom: -4%;
+     display: flex;
+     position: fixed;
+     margin-bottom: -5%;
+     left: 78%;
+     top: 3%;
+     z-index: 999;
 }
 
 a {
@@ -163,7 +167,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-left: 20%;
+
 }
 .parents1 hr {
   margin-top: 40px;
@@ -228,7 +232,7 @@ hr {
   object-fit: cover;
   display: flex;
   gap: 100px;
-  padding-left: 13%;
+
   padding-top: 63px;
 }
 .hold {
@@ -258,7 +262,7 @@ hr {
   color: #666;
 }
 .cursor {
-  padding-left: 16%;
+  padding-left: 4%;
 }
 .cursor1 {
   margin-top: -140px;
@@ -340,10 +344,7 @@ hr {
   padding: 270px;
   display: flex;
   margin-top: -150px;
-  gap: 0pc;
-  margin-left: 36pc;
-  position: relative;
-  left: -20%;
+
 }
 .lol1 h1 {
   font-size: 30px;
@@ -395,7 +396,7 @@ hr {
 .gr {
   height: 400px;
   display: flex;
-  padding-left: 20%;
+  
 }
 .gr1 h1 {
   padding: 294px;
@@ -446,7 +447,7 @@ hr {
 }
 .ew {
   border-radius: 1px;
-  width: 350px;
+  width: 243px;
   height: 23px;
   padding-left: 120px;
   cursor: pointer;
@@ -461,7 +462,7 @@ hr {
   margin-bottom: 8px;
   font-size: 12px;
   color: #666;
-  margin-left: 7.5%;
+  margin-left: -2.5%;
 }
 .ig {
   display: flex;
@@ -474,12 +475,12 @@ hr {
   margin-top: 15px;
 }
 .hg {
-  margin-left: -300px;
+  margin-left: -4%;
   margin-top: 4px;
   color: #666;
 }
 .id {
-  margin-left: 725px;
+
   width: 140px;
   height: 30px;
   position: relative;
@@ -516,7 +517,10 @@ hr {
   border-bottom: 1px solid black;
   background-color: #bcafbd;
   height: 15px;
-  margin-top: 30px;
+  margin-top: -2pc;
+  width: 23pc;
+  position: relative;
+  
 }
 .ob {
   border: none;
@@ -527,15 +531,13 @@ hr {
 }
 .hj {
   display: flex;
-  gap: 30px;
+  flex-direction: column;
 }
 .hj p {
   margin-top: 5px;
   margin-right: -110px;
 }
-.jb p {
-  color: #666;
-}
+
 .ef {
   border: none;
   border-bottom: 1px solid black;
@@ -549,15 +551,17 @@ hr {
   background-color: #bcafbd;
 }
 .rb {
-  margin-left: 737px;
+
   width: 90px;
   height: 35px;
   font-size: 11px;
   background-color: #bcafbd;
   cursor: pointer;
-  position: relative;
-  top: -70px;
-  left: 23.7%;
+  display: flex
+  ;
+      justify-content: center;
+      align-items: center;
+
 }
 button:hover {
   background-color: #4f4768;
@@ -640,9 +644,7 @@ button:hover {
   display: flex;
   gap: 100px;
 }
-.rb {
-  left: 13%;
-}
+
 .lu {
   display: flex;
   gap: 70px;
@@ -996,14 +998,46 @@ button:hover {
   margin-top: 8px;
   height: 1200px;
 }
-.foto{
-  width:100%;
-  height:537px;
+.foto {
+  width: 100%;
+  height: 537px;
   overflow: hidden;
+}
+.ob {
+  position: relative;
+  right: 220px;
+  width: 26pc;
+}
+.fn {
+  margin-top: -57px;
+  position: relative;
+  top: -4pc;
+}
+.lof h2 {
+  position: relative;
+  left: -2pc;
+}
+.ln {
+  position: relative;
+  left: -23pc;
+  top: -12px;
+}
+.eq {
+  position: relative;
+  top: -13px;
+}
+.ob {
+  position: relative;
+  left: 0%;
+  width: 21.7pc;
+}
+.rb{
+  margin-bottom: 3pc;
 }
 
 @media only screen and (max-width: 430px) {
-  hr{
+
+  hr {
     width: 100%;
   }
   .search-nav {
@@ -1016,98 +1050,102 @@ button:hover {
       display: none !important;
     }
     .search {
-      width: 100%;
-      margin-left: -100%;
-      margin-top: 3pc
+      width: 90%;
+      margin-left: -38pc;
+      position: relative;
+      top: 4pc;
     }
     .search input {
       width: 100%;
-     }
+    }
     nav h2 {
       margin-left: -130%;
     }
-    .lof{
-      margin-left: -7%;
-      margin-top: -3%;
+    .lof {
+      margin-left: 18%;
+      margin-top: -1%;
+      width: 16pc;
+      padding-left: 2pc;
     }
   }
-  .hp0{
+  .hp0 {
     width: 150%;
-  position: relative;
-  left: -110px;
-  height: 20pc;
+    position: relative;
+    left: -110px;
+    height: 20pc;
   }
-  .foto{
+  .foto {
     height: auto;
   }
-  .hp9 h1{
+  .hp9 h1 {
     margin-left: -7%;
     font-size: 50px;
     padding-top: 65%;
   }
-  .hp9 p{
+  .hp9 p {
     font-size: 25px;
     padding-top: 3%;
     width: 80%;
     margin-left: 8%;
+    color: white;
   }
-  .hp9{
+  .hp9 {
     height: 20pc;
     font-size: 2pc;
   }
-  .home h1{
+  .home h1 {
     margin-top: -24pc;
   }
-  .home hr{
+  .home hr {
     margin-top: -5pc;
   }
-  .hop .lu{
+  .hop .lu {
     display: flex;
     flex-direction: column;
   }
-  .body1{
-  margin-top: 15pc;
+  .body1 {
+    margin-top: 15pc;
   }
-  .parents2{
+  .parents2 {
     padding-left: 0pc;
     margin-top: 30pc;
   }
-  .body2{
+  .body2 {
     padding-top: 13pc;
   }
-  .parents3{
+  .parents3 {
     padding-left: 0pc;
     padding-top: 41pc;
   }
-  .cursor1{
+  .cursor1 {
     display: none;
   }
-  .cursor2{
+  .cursor2 {
     display: none;
   }
-  .cursor3{
+  .cursor3 {
     display: none;
   }
-  .para{
+  .para {
     display: none;
   }
-  .kr hr{
+  .kr hr {
     margin-top: 1pc;
   }
-  .lol h1{
+  .lol h1 {
     font-size: 34px;
     margin-left: -22pc;
     margin-top: -7pc;
     position: relative;
     left: 4pc;
   }
-  .lol2{
+  .lol2 {
     margin-left: -24pc;
     margin-top: 2pc;
     position: relative;
     left: 3pc;
   }
-  .lol p{
+  .lol p {
     font-size: 2pc;
     margin-top: 14pc;
     margin-left: -27pc;
@@ -1115,76 +1153,79 @@ button:hover {
     position: relative;
     left: 92px;
   }
-  .gp button{
+  .gp button {
     height: 3pc;
     margin-left: -18pc;
     width: 16pc;
   }
-  .gr img{
+  .gr img {
     position: relative;
-    right: 14pc;
+    right: 11pc;
   }
-  .gr1 h1{
+  .gr1 h1 {
     margin-left: -23pc;
     position: relative;
-    right: 10pc;
+    right: 8pc;
     top: 23pc;
   }
-  .gr1 p{
+  .gr1 p {
     position: relative;
-    right: 15pc;
+    right: 12pc;
     top: 21pc;
     font-size: 23px;
   }
-  .wk button{
-    margin-left: -33pc;
+  .wk button {
+    margin-left: -30pc;
     margin-top: 19pc;
     width: 13pc;
     height: 3pc;
   }
-  .tp{
+  .tp {
     margin-top: 30pc;
   }
-  .os{
+  .os {
     margin-top: -10px;
     position: relative;
-    right: 26pc;
+    right: 23pc;
     font-size: 2pc;
   }
-  .oc i{
+  .oc i {
     margin-left: -3pc;
   }
-  .vr{
+  .vr {
     margin-top: 42pc;
   }
-  .tp{
+  .tp {
     margin-top: -2pc;
     font-size: 27px;
   }
-  .ew{
-    margin-left: 7pc;
+  .ew {
+    margin-left: 6pc;
     width: 11pc;
   }
-  .ry{
+  .ry {
     margin-left: -17pc;
   }
-  .ig p{
+  .ig p {
     padding-left: 36pc;
   }
-  .hg{
+  .ig{
+    margin-left: -36pc;
+  }
+  .hg {
     position: relative;
     left: 36pc;
   }
-  .id{
-    margin-left: 7pc;
+  .id {
+    margin-left: 6pc;
     margin-top: 2pc;
     width: 19pc;
     height: 35px;
   }
-  .jg{
+  .jg {
     padding-left: 50px;
   }
-  .jg h3{
+  .jg h3 {
     margin-top: -10pc;
     font-size: 31px;
     margin-left: -11pc;
@@ -1192,49 +1233,285 @@ button:hover {
     left: 13pc;
     top: 4pc;
   }
-  .lol{
-    margin-left: 21%;
-  }
-  .oq{
+  .oq {
     position: relative;
     left: 6pc;
     font-size: 2pc;
     top: -6pc;
   }
-  .jb{
+  .jb {
     margin-left: -12pc;
-    margin-top: 7pc;
-  }
-  .on{
-    margin-top: -2pc;
-    width: 23pc;
-  }
-  .ob{
+    margin-top: 3pc;
+    }
+    p {
+      color: #666;
+    }
+    .ty{
+      margin-top: 0.2px;
+    }
+    .rb{
+      width: 89%;
+      margin-bottom: 1pc;
+    }
+    .oe{
+      position: relative;
+      left: -17pc;
+    }
+    .ref{
+      position: relative;
+      left: -18pc;
+      width: 83%;
+    }
+    .or{
+      margin-left: -27pc;
+      width: 86%;
+      font-size: 1pc;
+      position: relative;
+      left: 10pc;
+    }
+    .orv{
+      left: -22pc;
+      margin-left: 6pc;
+      position: relative;
+      top: -52pc;
+    }
+    .beach h3{
+      position: relative;
+      left: -16pc;
+      top: -62pc;
+    }
+    .frg{
+      position: relative;
+      left: -17pc;
+      top: -57pc;
+    }
+    .beach h5{
+      position: relative;
+    left: -15.5pc;
+    font-size: 1pc;
+    top: -13pc;
+    }
+    .stone{
+      position: relative;
+      left: -15pc;
+      top: -111pc;
+      width: 21pc;
+    }
+    .org{
+      margin-left: 8pc;
+      position: relative;
+      left: -23pc;
+      top: -12pc;
+      color: black;
+    }
+    .hyu{
+      margin-left: -16pc;
+      position: relative;
+      top: -12.2pc;
+    }
+    .land{
+      position: relative;
+      left: -65pc;
+      top: 97pc;
+      height: 64pc;
+      min-width: -webkit-fill-available;
+      margin-left: -100px;
+    }
+    .land img{
+      position: relative;
+      left: 5pc;
+    }
+    .till{
+      position: relative;
+      left: 5pc;
+    }
+    .til{
+      position: relative;
+      left: 5pc;
+    }
+    .tya{
+      position: relative;
+      left: -11pc;
+    }
+    .cls{
+      display: none;
+    }
+    .sct{
+      position: relative;
+    top: 10pc;
+    }
+    .urx{
+      position: relative;
+      top: 10pc;
+      left: 5pc;
+    }
+    .hru{
+      margin-left: -8pc;
+    padding-left: 19pc;
     position: relative;
-    right: 220px;
-    width: 26pc;
+    left: -79px;
+    top: 6pc;
+    }
+    .harm{
+      position: relative;
+      left: 10pc;
+      top: 6pc;
+      padding: 0px;
+      margin-left: -36pc;
+      position: relative;
+      top: 8pc;
   }
-  .fn{
-    margin-top: -57px;
+  .leg{
+    padding-left: 32px;
+  }
+  .jk{
+ display: none;
+  }
+  .xz{
     position: relative;
-    top: -4pc;
+    left: 2pc;
+    top: -47pc;
   }
-  .lof h2{
+  .vb{
     position: relative;
-    left: -2pc;
+    left: -40pc;
+    top: -22pc;
   }
-  .ln{
+  .wt{
+    font-size: 19px;
+    width: 20pc;
     position: relative;
-    left: -23pc;
-    top: -12px;
+    left: -6pc;
+    padding-top: 15pc;
+    top: -3pc;
   }
-  .eq{
+  .oa{
+    font-size: 19px;
+        width: 20pc;
+        position: relative;
+        left: -6pc;
+  }
+  .ola button{
+    width: 266px;
+    height: 51px;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-left: -5pc;
+    }
+  .er{
+    margin-top: 50pc;
+  }
+  .hu{
+   display: none;
+  }
+  .vb h1{
+    display: none;
+  }
+    .air{
+      display: none;
+    }
+    .ear{
+      display: none;
+    }
+    .iq{
+      display: none;
+    }
+    .peq{
+      flex-direction: column;
+      gap: 2pc;
+      padding-top: 2pc
+    }
+    .peq img{
+      width: 6pc;
+      height: 5pc;
+      padding-top: 6pc;
+    }
+    .klu{
+      flex-direction: column;
+      margin-top: -32pc;
+      gap: 9pc;
+      padding-left: 7pc;
+    }
+    .clu{
+      flex-direction: column;
+      margin-top: -26pc;
+      gap: 9pc;
+    }
+    .of{
+      position: relative;
+      top: 70pc;
+      left: -19pc;
+    }
+    .orv1{
+      position: relative;
+      margin-left: 6pc;
+      left: -22pc;
+      top: -29pc;
+    }
+    .beach h6{
+      position: relative;
+      left: -16pc;
+      font-size: 1pc;
+    }
+    .orw{
+      margin-left: 9pc;
+      position: relative;
+      left: -25pc;
+    }
+    .orv0{
+      margin-left: 10pc;
     position: relative;
-    top: -13px;
-  }
-  .ob{
-    position: relative;
-    left: -365px;
-    width: 24pc;
-  }
-}
+    left: -26pc;
+    top: 25pc;
+    }
+    .kbt{
+      position: relative;
+      left: -16pc;
+      gap: 5pc;
+      font-size: 2pc;
+      top: -15pc;
+    }
+    .ohj{
+      position: relative;
+      left: -20pc;
+      top: -16pc;
+    }
+    .orf{
+      padding-left: 64px;
+    }
+    .ohj i{
+      position: relative;
+      left: -10pc;
+    }
+    .klw{
+      position: relative;
+      left: -20pc;
+      top: -42pc;
+    }
+    .tre{
+      margin-left: 5pc;
+    }
+    .trv{
+      margin-left: 6pc;
+    }
+    .qva{
+      display: none;
+    }
+    .low{
+      display: none;
+    }
+    .loe{
+      display: none;
+    }
+    .krw{
+      display: none;
+    }
+    .rcf{
+      display: none;
+    }
+    }
+    .rcd{
+      position: relative;
+      left: -19.5pc;
+      top: -19pc;
+    }

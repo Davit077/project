@@ -1,12 +1,9 @@
-const burgerButton = document.getElementById('burger-button');
-const navList = document.querySelector('.nav-list');
-const closeButton = document.getElementById('close-button');
+// const hamMenu = document.querySelector('ham-menu');
 
+// const offScreenMenu = document.querySelector
+// ('.off-screen-menu');
 
-burgerButton.addEventListener('click', () => {
-  navList.classList.add('active');  
-});
-
-closeButton.addEventListener('click', () => {
-  navList.classList.remove('active');  
-});
+// hamMenu.addEventListener('click', ()  {
+//   hamMenu.classList.toggle('active');
+//   offScreenMenu.classList.toggle('active');
+// })
