@@ -21,26 +21,34 @@ li {
   flex: 1;
   justify-content: space-between;
   font-size: 10px;
-  padding-right: 10%;
+  position: fixed;
+  gap: 35pc;
+  padding-top: 4%;
 }
-.search-nav nav ul {
+.search-nav .search input {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.search-nav ul {
   display: flex;
   gap: 40px;
 }
-.search-nav nav h2 {
+.search-nav h2 {
   font-weight: 100;
 }
-.search-nav nav .lof {
-  margin-left: -50%;
+.search-nav .lof {
+  margin-left: -70%;
 }
-.search-nav input {
+
+input nav {
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
   width: 110px;
   height: 30px;
   padding: 0px;
 }
-.search-nav button {
+
+.search button {
   width: 30px;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
@@ -48,12 +56,12 @@ li {
   height: 34px;
   padding: 0px;
 }
-.search-nav .burger-menu {
-  display: none;
-}
 
 .search {
   display: flex;
+  margin-left: -10pc;
+  padding-left: 99%;
+  margin-bottom: -4%;
 }
 
 a {
@@ -82,17 +90,15 @@ img {
 }
 
 .hp9 {
-  position: absolute;
-  top: 20px;
-  left: 350px;
   color: white;
   margin-top: -30px;
   padding-top: 3pc;
-  margin-left: 7%;
+  margin-left: 2%;
 }
 
 .hp9 h1 {
   font-size: 80px;
+  margin-top: -36pc;
 }
 
 .hp9 p {
@@ -180,7 +186,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-left: 13%;
+  padding-left: 20%;
 }
 
 .parents1 hr {
@@ -259,7 +265,7 @@ hr {
      object-fit: cover;
   display: flex;
   gap: 100px;
-  padding-left: 70px;
+  padding-left: 13%;
   padding-top: 63px;
 }
 
@@ -296,7 +302,7 @@ hr {
 }
 
 .cursor {
-  padding-left: 8%;
+  padding-left: 16%;
 }
 
 .cursor1 {
@@ -400,6 +406,10 @@ hr {
   padding: 270px;
   display: flex;
   margin-top: -150px;
+  gap: 0pc;
+  margin-left: 36pc;
+  position: relative;
+  left: -20%;
 }
 
 .lol1 h1 {
@@ -464,6 +474,7 @@ hr {
 .gr {
   height: 400px;
   display: flex;
+  padding-left: 20%;
 }
 
 .gr1 h1 {
@@ -528,9 +539,9 @@ hr {
   border-radius: 1px;
   width: 350px;
   height: 23px;
-  margin-left: 390px;
   padding-left: 120px;
   cursor: pointer;
+  margin-left: 29%;
 }
 
 .ew button:hover {
@@ -543,12 +554,14 @@ hr {
   margin-bottom: 8px;
   font-size: 12px;
   color: #666;
+  margin-left: 7.5%;
 }
 
 .ig {
   display: flex;
   justify-content: center;
   color: #666;
+  margin-left: -18.4pc;
 }
 
 .ig p {
@@ -570,6 +583,7 @@ hr {
   top: -30px;
   background-color: #4f4768;
   color: white;
+  margin-left: 47.5%;
 }
 
 .iy {
@@ -652,6 +666,7 @@ hr {
   cursor: pointer;
   position: relative;
   top: -70px;
+  left: 23.7%;
 }
 
 button:hover {
@@ -1182,7 +1197,16 @@ button:hover {
   height: 1200px;
 }
 
+.foto {
+  width: 100%;
+  height: 537px;
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 430px) {
+  hr {
+    width: 100%;
+  }
   .search-nav {
     flex-direction: column;
     padding: 0 20px;
@@ -1194,13 +1218,224 @@ button:hover {
     display: none !important;
   }
   .search-nav .search {
-    width: 18pc;
     width: 100%;
+    margin-left: -100%;
+    margin-top: 3pc;
   }
   .search-nav .search input {
     width: 100%;
   }
   .search-nav nav h2 {
     margin-left: -130%;
+  }
+  .search-nav .lof {
+    margin-left: -7%;
+    margin-top: -3%;
+  }
+  .hp0 {
+    width: 150%;
+    position: relative;
+    left: -110px;
+    height: 20pc;
+  }
+  .foto {
+    height: auto;
+  }
+  .hp9 h1 {
+    margin-left: -7%;
+    font-size: 50px;
+    padding-top: 65%;
+  }
+  .hp9 p {
+    font-size: 25px;
+    padding-top: 3%;
+    width: 80%;
+    margin-left: 8%;
+  }
+  .hp9 {
+    height: 20pc;
+    font-size: 2pc;
+  }
+  .home h1 {
+    margin-top: -24pc;
+  }
+  .home hr {
+    margin-top: -5pc;
+  }
+  .hop .lu {
+    display: flex;
+    flex-direction: column;
+  }
+  .body1 {
+    margin-top: 15pc;
+  }
+  .parents2 {
+    padding-left: 0pc;
+    margin-top: 30pc;
+  }
+  .body2 {
+    padding-top: 13pc;
+  }
+  .parents3 {
+    padding-left: 0pc;
+    padding-top: 41pc;
+  }
+  .cursor1 {
+    display: none;
+  }
+  .cursor2 {
+    display: none;
+  }
+  .cursor3 {
+    display: none;
+  }
+  .para {
+    display: none;
+  }
+  .kr hr {
+    margin-top: 1pc;
+  }
+  .lol h1 {
+    font-size: 34px;
+    margin-left: -22pc;
+    margin-top: -7pc;
+    position: relative;
+    left: 4pc;
+  }
+  .lol2 {
+    margin-left: -24pc;
+    margin-top: 2pc;
+    position: relative;
+    left: 3pc;
+  }
+  .lol p {
+    font-size: 2pc;
+    margin-top: 14pc;
+    margin-left: -27pc;
+    text-align: center;
+    position: relative;
+    left: 92px;
+  }
+  .gp button {
+    height: 3pc;
+    margin-left: -18pc;
+    width: 16pc;
+  }
+  .gr img {
+    position: relative;
+    right: 14pc;
+  }
+  .gr1 h1 {
+    margin-left: -23pc;
+    position: relative;
+    right: 10pc;
+    top: 23pc;
+  }
+  .gr1 p {
+    position: relative;
+    right: 15pc;
+    top: 21pc;
+    font-size: 23px;
+  }
+  .wk button {
+    margin-left: -33pc;
+    margin-top: 19pc;
+    width: 13pc;
+    height: 3pc;
+  }
+  .tp {
+    margin-top: 30pc;
+  }
+  .os {
+    margin-top: -10px;
+    position: relative;
+    right: 26pc;
+    font-size: 2pc;
+  }
+  .oc i {
+    margin-left: -3pc;
+  }
+  .vr {
+    margin-top: 42pc;
+  }
+  .tp {
+    margin-top: -2pc;
+    font-size: 27px;
+  }
+  .ew {
+    margin-left: 7pc;
+    width: 11pc;
+  }
+  .ry {
+    margin-left: -17pc;
+  }
+  .ig p {
+    padding-left: 36pc;
+  }
+  .hg {
+    position: relative;
+    left: 36pc;
+  }
+  .id {
+    margin-left: 7pc;
+    margin-top: 2pc;
+    width: 19pc;
+    height: 35px;
+  }
+  .jg {
+    padding-left: 50px;
+  }
+  .jg h3 {
+    margin-top: -10pc;
+    font-size: 31px;
+    margin-left: -11pc;
+    position: relative;
+    left: 13pc;
+    top: 4pc;
+  }
+  .lol {
+    margin-left: 21%;
+  }
+  .oq {
+    position: relative;
+    left: 6pc;
+    font-size: 2pc;
+    top: -6pc;
+  }
+  .jb {
+    margin-left: -12pc;
+    margin-top: 7pc;
+  }
+  .on {
+    margin-top: -2pc;
+    width: 23pc;
+  }
+  .ob {
+    position: relative;
+    right: 220px;
+    width: 26pc;
+  }
+  .fn {
+    margin-top: -57px;
+    position: relative;
+    top: -4pc;
+  }
+  .lof h2 {
+    position: relative;
+    left: -2pc;
+  }
+  .ln {
+    position: relative;
+    left: -23pc;
+    top: -12px;
+  }
+  .eq {
+    position: relative;
+    top: -13px;
+  }
+  .ob {
+    position: relative;
+    left: -365px;
+    width: 24pc;
   }
 }/*# sourceMappingURL=style.css.map */
