@@ -615,7 +615,7 @@ hr {
   background-color: #bcafbd;
   height: 15px;
   margin-top: -2pc;
-  width: 23pc;
+  width: 22pc;
   position: relative;
 }
 
@@ -1246,7 +1246,7 @@ button:hover {
   }
   .search-nav .search {
     width: 90%;
-    margin-left: -38pc;
+    margin-left: -37pc;
     position: relative;
     top: 4pc;
   }
