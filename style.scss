@@ -57,12 +57,12 @@ input nav {
   padding: 0px;
 }
 .search {
-     display: flex;
-     position: fixed;
-     margin-bottom: -5%;
-     left: 78%;
-     top: 3%;
-     z-index: 999;
+  display: flex;
+  position: fixed;
+  margin-bottom: -5%;
+  left: 78%;
+  top: 3%;
+  z-index: 999;
 }
 
 a {
@@ -78,15 +78,11 @@ a {
   color: white;
 }
 
-img {
-  width: 100%;
-}
+
 .hp0 {
-  position: relative;
-  width: 1074px;
-  height: 537px;
-  border-top-left-radius: 543px;
-  border-top-right-radius: 543px;
+  width: 80%;
+  border-top-left-radius: 500rem;
+  border-top-right-radius: 500rem;
 }
 .hp9 {
   color: white;
@@ -108,36 +104,34 @@ img {
   top: -110px;
   font-size: 50px;
 }
+.hr0{
+  margin-top: -2%;
+}
 .pr3 {
   text-align: center;
   padding-top: 90px;
   margin-top: -10px;
 }
 h1 {
-  padding: 80px;
+  padding: 4pc;
   text-align: center;
   font-weight: 200;
-  position: relative;
+
 }
 .os {
   margin-top: -10px;
 }
-hr {
-  width: 1100px;
-}
+
 .body {
-  width: 320px;
-  height: 420px;
+  width: 20rem;
   object-fit: cover;
 }
 .body1 {
-  width: 320px;
-  height: 470px;
+  width: 20rem;
   object-fit: cover;
 }
 .body2 {
-  width: 320px;
-  height: 370px;
+  width: 20rem;
   object-fit: cover;
 }
 .hop {
@@ -161,18 +155,16 @@ hr {
   color: #555;
   font-size: 10px;
 }
-.parents1 {
-  padding: 70px;
-  padding-top: 0px;
+.parents {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-
+  justify-content: center;
+  gap: 5.5%;
+  padding-top: 3%;
+  margin-top: -3%;
+  margin-right: 1%;
 }
-.parents1 hr {
-  margin-top: 40px;
-  width: 300px;
-  margin-left: -4px;
+.parents hr {
+  width: 100%;
 }
 .footer {
   font-size: 0.9em;
@@ -181,17 +173,11 @@ hr {
   padding-left: 0px;
   padding-top: 1px;
 }
-.parents2 {
-  padding-left: 392px;
-  margin-top: -150px;
-}
+
 .parents2 h2 {
   font-size: 17px;
 }
-.parents3 {
-  padding-left: 790px;
-  margin-top: -280px;
-}
+
 .hop9 {
   font-size: 0.9em;
   color: #666;
@@ -228,23 +214,15 @@ hr {
   color: #888;
 }
 .para {
-  width: 300px;
-  object-fit: cover;
-  display: flex;
-  gap: 100px;
 
-  padding-top: 63px;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  padding-right: 1.5%;
+  padding-top: 4%;
 }
-.hold {
-  height: 310px;
-  padding-left: 40%;
-}
-.hold1 {
-  padding-top: 50px;
-}
-.hold2 {
-  height: 362px;
-  margin-top: -40px;
+.para img {
+  width: 20rem;
 }
 .ow {
   font-size: 0.9em;
@@ -262,11 +240,16 @@ hr {
   color: #666;
 }
 .cursor {
-  padding-left: 4%;
-}
-.cursor1 {
-  margin-top: -140px;
-  padding-left: 65px;
+  display: flex;
+  justify-content: center;
+  gap: 6.5%;
+  .cursor1 {
+    margin-top: -7%;
+  }
+  .cursor3 {
+    margin-top: -4%;
+    margin-left: -2%;
+  }
 }
 .cursor1 p {
   padding-left: 1px;
@@ -278,10 +261,7 @@ hr {
 .low {
   color: #666;
 }
-.cursor2 {
-  padding-left: 475px;
-  margin-top: -17px;
-}
+
 .cursor2 hr {
   margin-left: 1px;
   width: 300px;
@@ -300,10 +280,7 @@ hr {
 .kw {
   color: #666;
 }
-.cursor3 {
-  margin-left: 870px;
-  margin-top: -300px;
-}
+
 .dj {
   color: #666;
   font-size: 14px;
@@ -328,7 +305,7 @@ hr {
 .kr h1 {
   font-size: 45px;
   padding: 1px;
-  padding-top: 10px;
+
 }
 .pt {
   margin-top: 270px;
@@ -341,75 +318,95 @@ hr {
   border-top-right-radius: 130px;
 }
 .lol {
-  padding: 270px;
-  display: flex;
-  margin-top: -150px;
 
+  display: flex;
+  margin-right: 33%;
+  margin-left: 28%;
+  padding-top: 5%;
 }
 .lol1 h1 {
   font-size: 30px;
-  padding-top: 20px;
+
 }
 .lol1 p {
   color: #666;
   font-size: 12px;
-  padding: 114px;
-  margin-top: -180px;
-  padding-left: 90px;
+  
 }
 .lol1 button span {
   font-size: 10px;
-  margin-left: -85px;
+
 }
-.lol1 button {
-  width: 100px;
-  height: 25px;
-  margin-top: -100px;
-  padding-left: 90px;
+.read-more{
+  display: flex;
+  flex-direction: column;
+  .p-but{
+    padding: 21%;
+    margin-top: -40%;
+  }
+  .lol1 button:hover {
+    background-color: #4f4768;
+    color: white;
+  }
+  button {
+    width: 50%;
+    height: 2pc;
+  }
+
 }
-.gp {
-  margin-top: -100px;
-  padding-left: 90px;
-}
-.lol1 button:hover {
-  background-color: #4f4768;
-  color: white;
-}
+
 .uw {
-  margin-top: -200px;
+  margin-top: 9%;
+  margin-bottom: -3%;
 }
 .io h1 {
-  margin-top: -190px;
+
   font-size: 40px;
 }
-.gr img {
-  object-fit: cover;
-  width: 300px;
-}
-.gr1 {
-  margin-top: -230px;
-  margin-left: -250px;
-}
-.gr p {
-  padding-right: 24%;
-}
 .gr {
-  height: 400px;
-  display: flex;
-  
-}
-.gr1 h1 {
-  padding: 294px;
-  padding-bottom: 3px;
-  padding-right: 43%;
+  display: flex
+  ;
+      justify-content: center;
+      gap: 2%;
+      .gr p {
+        padding-right: 24%;
+      }
+      h2{
+        padding-right: 59%;
+        font-size: 25px;
+        font-weight: 300;
+      }
+      .gr img {
+        object-fit: cover;
+        width: 300px;
+      }
+      .gr img {
+        padding-left: 230px;
+        margin-top: 50px;
+      }
+      .gr1{
+        padding-left: 5%;
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+      }
+      .gr button {
+        width: 100%;
+        height: 100%;
+        margin-top: 25%;
+      }
+      .wk button:hover {
+        background-color: #4f4768;
+        color: white;
+      }
+      .gr-img1{
+        width: 60%;
+        padding-top: 20%;
+        padding-left: 40%;}
 }
 .wk {
-  padding-left: 310px;
-  padding-top: 30px;
-}
-.gr img {
-  padding-left: 230px;
-  margin-top: 50px;
+  width: 22%;
+  height: 2pc;
 }
 .ov {
   padding-left: 330px;
@@ -422,47 +419,34 @@ hr {
 }
 .os {
   display: flex;
+  margin-left: -53%;
+  padding-top: 2%;
 }
 .gr p {
-  text-align: center;
+
   color: #666;
-  font-size: 10px;
-  padding-top: 20px;
-}
-.gr button {
-  width: 158px;
-  height: 30px;
-}
-.gr button:hover {
-  background-color: #4f4768;
-  color: white;
+
 }
 .vr {
   margin-top: 100px;
 }
 .tp {
   font-size: 40px;
-  padding-bottom: 15px;
-  padding-right: 21%;
-}
+  padding-bottom: 15px;}
 .ew {
-  border-radius: 1px;
-  width: 243px;
-  height: 23px;
-  padding-left: 120px;
+  padding-left: 15%;
   cursor: pointer;
-  margin-left: 29%;
+  margin-left: 36%;
 }
 .ew button:hover {
   color: white;
   background-color: #bcafbd;
 }
 .ry {
-  padding-left: 390px;
-  margin-bottom: 8px;
-  font-size: 12px;
+
   color: #666;
-  margin-left: -2.5%;
+  text-align: center;
+  padding-right: 25%;
 }
 .ig {
   display: flex;
@@ -475,19 +459,19 @@ hr {
   margin-top: 15px;
 }
 .hg {
-  margin-left: -4%;
+  margin-left: 2%;
   margin-top: 4px;
   color: #666;
 }
 .id {
-
+  position: relative;
+  top: -2pc;
   width: 140px;
   height: 30px;
-  position: relative;
-  top: -30px;
+
   background-color: #4f4768;
   color: white;
-  margin-left: 47.5%;
+  margin-left: 52.5%;
 }
 .iy {
   background-color: #dfdfdf;
@@ -520,7 +504,7 @@ hr {
   margin-top: -2pc;
   width: 22pc;
   position: relative;
-  
+
 }
 .ob {
   border: none;
@@ -557,10 +541,9 @@ hr {
   font-size: 11px;
   background-color: #bcafbd;
   cursor: pointer;
-  display: flex
-  ;
-      justify-content: center;
-      align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 button:hover {
@@ -1031,14 +1014,14 @@ button:hover {
   left: 0%;
   width: 21.7pc;
 }
-.rb{
+.rb {
   margin-bottom: 3pc;
 }
 
 @media only screen and (max-width: 430px) {
-
+ 
   hr {
-    width: 100%;
+    width: 90%;
   }
   .search-nav {
     flex-direction: column;
@@ -1047,7 +1030,9 @@ button:hover {
       flex-grow: 0;
     }
     ul {
-      display: none !important;
+      gap: 2pc;
+      margin-left: -32pc;
+      margin-top: 0.1pc;
     }
     .search {
       width: 90%;
@@ -1209,7 +1194,7 @@ button:hover {
   .ig p {
     padding-left: 36pc;
   }
-  .ig{
+  .ig {
     margin-left: -36pc;
   }
   .hg {
@@ -1242,142 +1227,142 @@ button:hover {
   .jb {
     margin-left: -12pc;
     margin-top: 3pc;
-    }
-    p {
-      color: #666;
-    }
-    .ty{
-      margin-top: 0.2px;
-    }
-    .rb{
-      width: 89%;
-      margin-bottom: 1pc;
-    }
-    .oe{
-      position: relative;
-      left: -17pc;
-    }
-    .ref{
-      position: relative;
-      left: -18pc;
-      width: 83%;
-    }
-    .or{
-      margin-left: -27pc;
-      width: 86%;
-      font-size: 1pc;
-      position: relative;
-      left: 10pc;
-    }
-    .orv{
-      left: -22pc;
-      margin-left: 6pc;
-      position: relative;
-      top: -52pc;
-    }
-    .beach h3{
-      position: relative;
-      left: -16pc;
-      top: -62pc;
-    }
-    .frg{
-      position: relative;
-      left: -17pc;
-      top: -57pc;
-    }
-    .beach h5{
-      position: relative;
+  }
+  p {
+    color: #666;
+  }
+  .ty {
+    margin-top: 0.2px;
+  }
+  .rb {
+    width: 89%;
+    margin-bottom: 1pc;
+  }
+  .oe {
+    position: relative;
+    left: -17pc;
+  }
+  .ref {
+    position: relative;
+    left: -18pc;
+    width: 83%;
+  }
+  .or {
+    margin-left: -27pc;
+    width: 86%;
+    font-size: 1pc;
+    position: relative;
+    left: 10pc;
+  }
+  .orv {
+    left: -22pc;
+    margin-left: 6pc;
+    position: relative;
+    top: -52pc;
+  }
+  .beach h3 {
+    position: relative;
+    left: -16pc;
+    top: -62pc;
+  }
+  .frg {
+    position: relative;
+    left: -17pc;
+    top: -57pc;
+  }
+  .beach h5 {
+    position: relative;
     left: -15.5pc;
     font-size: 1pc;
     top: -13pc;
-    }
-    .stone{
-      position: relative;
-      left: -15pc;
-      top: -111pc;
-      width: 21pc;
-    }
-    .org{
-      margin-left: 8pc;
-      position: relative;
-      left: -23pc;
-      top: -12pc;
-      color: black;
-    }
-    .hyu{
-      margin-left: -16pc;
-      position: relative;
-      top: -12.2pc;
-    }
-    .land{
-      position: relative;
-      left: -65pc;
-      top: 97pc;
-      height: 64pc;
-      min-width: -webkit-fill-available;
-      margin-left: -100px;
-    }
-    .land img{
-      position: relative;
-      left: 5pc;
-    }
-    .till{
-      position: relative;
-      left: 5pc;
-    }
-    .til{
-      position: relative;
-      left: 5pc;
-    }
-    .tya{
-      position: relative;
-      left: -11pc;
-    }
-    .cls{
-      display: none;
-    }
-    .sct{
-      position: relative;
+  }
+  .stone {
+    position: relative;
+    left: -15pc;
+    top: -111pc;
+    width: 21pc;
+  }
+  .org {
+    margin-left: 8pc;
+    position: relative;
+    left: -23pc;
+    top: -12pc;
+    color: black;
+  }
+  .hyu {
+    margin-left: -16pc;
+    position: relative;
+    top: -12.2pc;
+  }
+  .land {
+    position: relative;
+    left: -65pc;
+    top: 97pc;
+    height: 64pc;
+    min-width: -webkit-fill-available;
+    margin-left: -100px;
+  }
+  .land img {
+    position: relative;
+    left: 5pc;
+  }
+  .till {
+    position: relative;
+    left: 5pc;
+  }
+  .til {
+    position: relative;
+    left: 5pc;
+  }
+  .tya {
+    position: relative;
+    left: -11pc;
+  }
+  .cls {
+    display: none;
+  }
+  .sct {
+    position: relative;
     top: 10pc;
-    }
-    .urx{
-      position: relative;
-      top: 10pc;
-      left: 5pc;
-    }
-    .hru{
-      margin-left: -8pc;
+  }
+  .urx {
+    position: relative;
+    top: 10pc;
+    left: 5pc;
+  }
+  .hru {
+    margin-left: -8pc;
     padding-left: 19pc;
     position: relative;
     left: -79px;
     top: 6pc;
-    }
-    .harm{
-      position: relative;
-      left: 10pc;
-      top: 6pc;
-      padding: 0px;
-      margin-left: -36pc;
-      position: relative;
-      top: 8pc;
   }
-  .leg{
+  .harm {
+    position: relative;
+    left: 10pc;
+    top: 6pc;
+    padding: 0px;
+    margin-left: -36pc;
+    position: relative;
+    top: 8pc;
+  }
+  .leg {
     padding-left: 32px;
   }
-  .jk{
- display: none;
+  .jk {
+    display: none;
   }
-  .xz{
+  .xz {
     position: relative;
     left: 2pc;
     top: -47pc;
   }
-  .vb{
+  .vb {
     position: relative;
     left: -40pc;
     top: -22pc;
   }
-  .wt{
+  .wt {
     font-size: 19px;
     width: 20pc;
     position: relative;
@@ -1385,132 +1370,132 @@ button:hover {
     padding-top: 15pc;
     top: -3pc;
   }
-  .oa{
+  .oa {
     font-size: 19px;
-        width: 20pc;
-        position: relative;
-        left: -6pc;
+    width: 20pc;
+    position: relative;
+    left: -6pc;
   }
-  .ola button{
+  .ola button {
     width: 266px;
     height: 51px;
     font-size: 21px;
     margin-top: 20px;
     margin-left: -5pc;
-    }
-  .er{
+  }
+  .er {
     margin-top: 50pc;
   }
-  .hu{
-   display: none;
-  }
-  .vb h1{
+  .hu {
     display: none;
   }
-    .air{
-      display: none;
-    }
-    .ear{
-      display: none;
-    }
-    .iq{
-      display: none;
-    }
-    .peq{
-      flex-direction: column;
-      gap: 2pc;
-      padding-top: 2pc
-    }
-    .peq img{
-      width: 6pc;
-      height: 5pc;
-      padding-top: 6pc;
-    }
-    .klu{
-      flex-direction: column;
-      margin-top: -32pc;
-      gap: 9pc;
-      padding-left: 7pc;
-    }
-    .clu{
-      flex-direction: column;
-      margin-top: -26pc;
-      gap: 9pc;
-    }
-    .of{
-      position: relative;
-      top: 70pc;
-      left: -19pc;
-    }
-    .orv1{
-      position: relative;
-      margin-left: 6pc;
-      left: -22pc;
-      top: -29pc;
-    }
-    .beach h6{
-      position: relative;
-      left: -16pc;
-      font-size: 1pc;
-    }
-    .orw{
-      margin-left: 9pc;
-      position: relative;
-      left: -25pc;
-    }
-    .orv0{
-      margin-left: 10pc;
+  .vb h1 {
+    display: none;
+  }
+  .air {
+    display: none;
+  }
+  .ear {
+    display: none;
+  }
+  .iq {
+    display: none;
+  }
+  .peq {
+    flex-direction: column;
+    gap: 2pc;
+    padding-top: 2pc;
+  }
+  .peq img {
+    width: 6pc;
+    height: 5pc;
+    padding-top: 6pc;
+  }
+  .klu {
+    flex-direction: column;
+    margin-top: -32pc;
+    gap: 9pc;
+    padding-left: 7pc;
+  }
+  .clu {
+    flex-direction: column;
+    margin-top: -26pc;
+    gap: 9pc;
+  }
+  .of {
+    position: relative;
+    top: 70pc;
+    left: -19pc;
+  }
+  .orv1 {
+    position: relative;
+    margin-left: 6pc;
+    left: -22pc;
+    top: -29pc;
+  }
+  .beach h6 {
+    position: relative;
+    left: -16pc;
+    font-size: 1pc;
+  }
+  .orw {
+    margin-left: 9pc;
+    position: relative;
+    left: -25pc;
+  }
+  .orv0 {
+    margin-left: 10pc;
     position: relative;
     left: -26pc;
     top: 25pc;
-    }
-    .kbt{
-      position: relative;
-      left: -16pc;
-      gap: 5pc;
-      font-size: 2pc;
-      top: -15pc;
-    }
-    .ohj{
-      position: relative;
-      left: -20pc;
-      top: -16pc;
-    }
-    .orf{
-      padding-left: 64px;
-    }
-    .ohj i{
-      position: relative;
-      left: -10pc;
-    }
-    .klw{
-      position: relative;
-      left: -20pc;
-      top: -42pc;
-    }
-    .tre{
-      margin-left: 5pc;
-    }
-    .trv{
-      margin-left: 6pc;
-    }
-    .qva{
-      display: none;
-    }
-    .low{
-      display: none;
-    }
-    .loe{
-      display: none;
-    }
-    .krw{
-      display: none;
-    }
-    .rcf{
-      display: none;
-    }
-    }
-    .rcd{
-      position: relative;
-      top: -19pc;
-    }
+  }
+  .kbt {
+    position: relative;
+    left: -16pc;
+    gap: 5pc;
+    font-size: 2pc;
+    top: -15pc;
+  }
+  .ohj {
+    position: relative;
+    left: -20pc;
+    top: -16pc;
+  }
+  .orf {
+    padding-left: 64px;
+  }
+  .ohj i {
+    position: relative;
+    left: -10pc;
+  }
+  .klw {
+    position: relative;
+    left: -20pc;
+    top: -42pc;
+  }
+  .tre {
+    margin-left: 5pc;
+  }
+  .trv {
+    margin-left: 6pc;
+  }
+  .qva {
+    display: none;
+  }
+  .low {
+    display: none;
+  }
+  .loe {
+    display: none;
+  }
+  .krw {
+    display: none;
+  }
+  .rcf {
+    display: none;
+  }
+}
+.rcd {
+  position: relative;
+  top: -19pc;
+}
