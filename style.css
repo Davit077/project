@@ -19,12 +19,10 @@ li {
   display: flex;
   align-items: center;
   flex: 1;
-  justify-content: space-between;
   font-size: 10px;
   position: fixed;
-  gap: 30pc;
-  margin-left: -26pc;
-  padding-top: 4%;
+  top: 2%;
+  width: 100%;
   z-index: 999;
 }
 .search-nav .search input {
@@ -39,7 +37,7 @@ li {
   font-weight: 100;
 }
 .search-nav .lof {
-  padding-left: 1px;
+  margin-right: 45%;
 }
 
 input nav {
@@ -177,14 +175,7 @@ h1 {
 .parents {
   display: flex;
   justify-content: center;
-  gap: 5.5%;
-  padding-top: 3%;
-  margin-top: -3%;
-  margin-right: 1%;
-}
-
-.parents hr {
-  width: 100%;
+  gap: 5%;
 }
 
 .footer {
@@ -388,6 +379,8 @@ h1 {
 .read-more {
   display: flex;
   flex-direction: column;
+  padding-top: 9%;
+  margin-top: -18%;
 }
 .read-more .p-but {
   padding: 21%;
@@ -636,32 +629,21 @@ button:hover {
 }
 
 .xz {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 300px;
-  border-top-left-radius: 150px;
-  border-top-right-radius: 150px;
-  position: relative;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 
 .zx {
-  width: 250px;
-  height: 150px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: absolute;
+  margin-top: -30%;
+  margin-left: -35%;
+  height: 30%;
 }
 
 .er {
   display: flex;
-  gap: 500px;
-  height: 700px;
-  margin-bottom: -100px;
-}
-
-.xz {
-  left: 200px;
-  top: 70px;
+  padding-left: 27%;
+  gap: 14%;
+  padding-top: 5%;
 }
 
 .zx {
@@ -671,25 +653,21 @@ button:hover {
 
 .lk {
   display: flex;
-  gap: 170px;
+  gap: 20%;
   color: #666;
 }
 
 .vb h1 {
-  padding: revert;
-  margin-top: 100px;
   border-bottom: 1px solid black;
-  padding-right: 240px;
-  margin-bottom: 10px;
 }
 
 .vb {
-  position: relative;
-  left: -120px;
+  padding-right: 25%;
+  margin-top: -6%;
 }
 
 .wt {
-  padding-top: 100px;
+  padding-top: 10%;
   color: #666;
   font-size: 13px;
 }
@@ -726,7 +704,7 @@ button:hover {
 .ns {
   display: flex;
   flex-direction: column;
-  padding: 420px;
+  padding: 27%;
   padding-top: 10px;
 }
 
@@ -744,6 +722,7 @@ button:hover {
 
 .org {
   font-weight: 700;
+  padding-top: 2.5%;
 }
 
 .ns h3 {
@@ -772,27 +751,27 @@ button:hover {
   border: 1px solid #4f4768;
   width: 0px;
   height: 10px;
-  margin-top: -40px;
-  position: relative;
-  top: 28px;
-  right: 7px;
+  margin-top: -2.3%;
+  margin-left: -0.7%;
 }
 
 .rcf {
-  margin-top: -25pc;
-  width: 400px;
+  width: 20%;
+  margin-left: 26.5%;
+  margin-top: -36%;
 }
 
 .kbt {
-  padding-left: 420px;
-  padding-top: 10px;
+  padding-top: 9%;
+  padding-left: 27%;
   display: flex;
   gap: 20px;
 }
 
 .rcd {
-  margin-top: 20px;
-  width: 400px;
+  width: 20%;
+  margin-left: 27%;
+  margin-top: 1%;
 }
 
 .oe {
@@ -804,6 +783,7 @@ button:hover {
 
 .or {
   margin-bottom: 1px;
+  padding-right: 56%;
 }
 
 .orw {
@@ -813,12 +793,13 @@ button:hover {
 
 .ns h1 {
   margin-bottom: 1px;
+  padding-right: 61%;
 }
 
 .ns p {
-  font-weight: 700;
   font-size: 12px;
-  padding-top: 10px;
+  padding-right: 53%;
+  padding-top: 2.5%;
 }
 
 .ns h6 {
@@ -827,22 +808,21 @@ button:hover {
 
 .ohj {
   display: flex;
-  gap: 20px;
-  padding-left: 420px;
-  padding-top: 10px;
+  gap: 2%;
+  padding-left: 27%;
 }
 
 .ohj i {
-  padding-left: 220px;
+  padding-left: 12%;
   color: red;
 }
 
 .krw {
   display: flex;
-  gap: 310px;
-  padding-left: 400px;
-  padding-top: 50px;
+  gap: 18%;
   color: #666;
+  padding-left: 27%;
+  padding-top: 2%;
 }
 
 .krs {
@@ -850,13 +830,11 @@ button:hover {
 }
 
 .ft {
-  width: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
   display: flex;
-  gap: 30px;
-  padding-left: 400px;
-  padding-top: 20px;
+  gap: 1%;
+  height: 4.5%;
+  padding-left: 26%;
+  padding-top: 2%;
 }
 
 .low hr {
@@ -867,8 +845,9 @@ button:hover {
 .loq {
   display: flex;
   justify-content: center;
-  padding-top: 25px;
-  gap: 50px;
+  gap: 1%;
+  margin-right: 19%;
+  padding-top: 1%;
 }
 
 .ivf {
@@ -894,16 +873,16 @@ button:hover {
 }
 
 .klw hr {
-  width: 430px;
+  width: 26%;
+  margin-right: 46%;
 }
 
 .trv {
-  padding-left: 405px;
+  padding-left: 28%;
 }
 
 .tre {
-  padding-left: 420px;
-  padding-top: 10px;
+  padding-left: 28%;
 }
 
 .land hr {
@@ -957,16 +936,9 @@ button:hover {
   height: 30px;
 }
 
-.sea {
-  margin-left: -200px;
-  padding-top: 1px;
-}
-
 .beach {
   display: flex;
-  padding-left: 100px;
   background-color: #dfdfdf;
-  margin-top: -8px;
 }
 
 .hp {
@@ -974,19 +946,16 @@ button:hover {
 }
 
 .land {
-  position: relative;
-  left: -380px;
-  top: 377px;
   background-color: #d6d2d6;
-  width: 225px;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: center;
-  height: 1327px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5px;
+  gap: 7px;
+  text-align: center;
+  height: 78pc;
+  margin-top: 28%;
+  position: relative;
+  right: 34%;
 }
 
 .yur {
@@ -1012,8 +981,8 @@ button:hover {
 }
 
 .sxw {
-  padding-top: 100px;
-  margin-top: -9px;
+  padding-top: 5%;
+  margin-top: -1%;
 }
 
 .sxd {
@@ -1024,40 +993,33 @@ button:hover {
   margin-top: -9px;
 }
 
-.tya {
-  width: 180px;
-  height: 180px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  padding-left: 300px;
-  padding-top: 40px;
+.my-podcast {
+  display: flex;
+  justify-content: center;
+}
+
+.tya img {
+  width: 200px;
+  height: 200px;
+  padding-left: 120%;
+  margin-top: 23%;
 }
 
 .sct {
-  margin-top: -240px;
-  text-align: center;
+  padding-right: 24%;
 }
 
 .urx {
-  text-align: center;
-  padding-right: 140px;
-  margin-top: -90px;
-  font-size: 11px;
+  padding-left: 30%;
 }
 
 .cls {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  padding-right: 99px;
-  padding-top: 5px;
+  padding-left: 30%;
 }
 
 .hru {
-  color: #666;
-  padding-top: 70px;
-  padding-left: 305px;
-  font-size: 8px;
+  padding-right: 18%;
+  padding-left: 4%;
 }
 
 .harm {
@@ -1103,12 +1065,13 @@ button:hover {
 }
 
 .air {
-  width: 200px;
-  width: 200px;
   display: flex;
-  padding-left: 310px;
-  gap: 20px;
-  padding-top: 40px;
+  gap: 10%;
+  justify-content: center;
+  padding-left: 44%;
+  width: 200px;
+  height: 156px;
+  margin-top: 2%;
 }
 
 .ear {
@@ -1185,6 +1148,7 @@ button:hover {
 @media only screen and (max-width: 430px) {
   hr {
     width: 90%;
+    margin-left: -2%;
   }
   .search-nav {
     flex-direction: column;
@@ -1195,26 +1159,20 @@ button:hover {
   }
   .search-nav ul {
     gap: 2pc;
-    margin-left: -32pc;
-    margin-top: 0.1pc;
+    margin-top: -12%;
+    margin-left: -80%;
   }
   .search-nav .search {
     width: 90%;
     margin-left: -37pc;
     position: relative;
-    top: 4pc;
+    top: 3.5pc;
   }
   .search-nav .search input {
     width: 100%;
   }
-  .search-nav nav h2 {
-    margin-left: -130%;
-  }
   .search-nav .lof {
     margin-left: 18%;
-    margin-top: -1%;
-    width: 16pc;
-    padding-left: 2pc;
   }
   .hp0 {
     width: 150%;
@@ -1242,7 +1200,7 @@ button:hover {
     font-size: 2pc;
   }
   .home h1 {
-    margin-top: -24pc;
+    margin-top: -20pc;
   }
   .home hr {
     margin-top: -5pc;
@@ -1252,18 +1210,26 @@ button:hover {
     flex-direction: column;
   }
   .body1 {
-    margin-top: 15pc;
+    margin-top: 10pc;
   }
   .parents2 {
-    padding-left: 0pc;
-    margin-top: 30pc;
+    padding-top: 100%;
+    padding-left: 25%;
   }
   .body2 {
-    padding-top: 13pc;
+    padding-top: 7pc;
+  }
+  .parents1 {
+    padding-left: 25%;
   }
   .parents3 {
-    padding-left: 0pc;
-    padding-top: 41pc;
+    padding-left: 7pc;
+    padding-top: 24pc;
+  }
+  .parents {
+    display: flex;
+    flex-direction: column;
+    margin-left: -15%;
   }
   .cursor1 {
     display: none;
@@ -1278,43 +1244,42 @@ button:hover {
     display: none;
   }
   .kr hr {
-    margin-top: 1pc;
+    margin-top: 4pc;
+    margin-left: 5%;
   }
   .lol h1 {
-    font-size: 34px;
-    margin-left: -22pc;
-    margin-top: -7pc;
+    margin-left: -74%;
+    margin-top: -14%;
     position: relative;
-    left: 4pc;
+    left: 30%;
   }
   .lol2 {
-    margin-left: -24pc;
-    margin-top: 2pc;
-    position: relative;
-    left: 3pc;
+    margin-left: -17pc;
+    margin-top: 6pc;
   }
   .lol p {
-    font-size: 2pc;
-    margin-top: 14pc;
-    margin-left: -27pc;
-    text-align: center;
-    position: relative;
-    left: 92px;
+    padding-top: 220%;
+    margin-left: -50%;
+    font-size: 17px;
   }
   .gp button {
     height: 3pc;
-    margin-left: -18pc;
-    width: 16pc;
+    margin-left: -4pc;
+    width: 12pc;
   }
   .gr img {
-    position: relative;
-    right: 11pc;
+    width: 20pc;
+    padding-left: 59%;
   }
   .gr1 h1 {
     margin-left: -23pc;
     position: relative;
     right: 8pc;
     top: 23pc;
+  }
+  .io hr {
+    width: 80%;
+    margin-left: 10%;
   }
   .gr1 p {
     position: relative;
@@ -1657,8 +1622,4 @@ button:hover {
   .rcf {
     display: none;
   }
-}
-.rcd {
-  position: relative;
-  top: -19pc;
 }/*# sourceMappingURL=style.css.map */
