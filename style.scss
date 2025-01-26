@@ -366,11 +366,7 @@ h1 {
       .gr p {
         padding-right: 24%;
       }
-      h2{
-        padding-right: 59%;
-        font-size: 25px;
-        font-weight: 300;
-      }
+
       .gr img {
         object-fit: cover;
         width: 300px;
@@ -380,10 +376,16 @@ h1 {
         margin-top: 50px;
       }
       .gr1{
-        padding-left: 5%;
-        padding-top: 5%;
-        display: flex;
-        flex-direction: column;
+        display: flex
+;
+    flex-direction: column;
+    padding-top: 7%;
+    padding-left: 10%;
+    h2{
+      padding-right: 38%;
+    font-size: 25px;
+    font-weight: 300;
+    }
       }
       .gr button {
         width: 100%;
@@ -395,9 +397,10 @@ h1 {
         color: white;
       }
       .gr-img1{
-        width: 60%;
+        width: 19pc;
+        padding-left: 61%;
         padding-top: 20%;
-        padding-left: 40%;}
+      }
 }
 .wk {
   width: 22%;
@@ -1028,7 +1031,7 @@ padding-left: 30%;
     }
 
     .lof {
-      margin-left: 18%
+      margin-left: 21%
     }
   }
   .hp0 {
@@ -1052,6 +1055,10 @@ padding-left: 30%;
     margin-left: 8%;
     color: white;
   }
+  .land hr{
+    width: 90%;
+    margin-left: 5%;
+ }
   .hp9 {
     height: 20pc;
     font-size: 2pc;
@@ -1129,42 +1136,47 @@ padding-left: 30%;
     width: 20pc;
     padding-left: 59%;
   }
-  .gr1 h1 {
-    margin-left: -23pc;
-    position: relative;
-    right: 8pc;
-    top: 23pc;
+  .gr1 h2 {
+    text-align: center;
+    padding-left: 0%;
   }
   .io hr{
     width: 80%;
     margin-left: 10%;
   }
-  .gr1 p {
-    position: relative;
-    right: 12pc;
-    top: 21pc;
-    font-size: 23px;
+  .gr{
+    flex-direction: column;
   }
-  .wk button {
-    margin-left: -30pc;
-    margin-top: 19pc;
-    width: 13pc;
-    height: 3pc;
+  .gr-img1{
+    margin-left: -48%;
+  }
+  .gr1{
+    margin-left: 9%;
+  }
+  .gr1 p {
+    text-align: center;
+    margin-left: -30%;
+  }
+  .wk{
+    width: 45%;
+    height: 2pc;
+    margin-left: 10%;
+    margin-top: 7%;
   }
   .tp {
     margin-top: 30pc;
   }
   .os {
-    margin-top: -10px;
-    position: relative;
-    right: 23pc;
+
     font-size: 2pc;
+    margin-left: -60%;
   }
   .oc i {
     margin-left: -3pc;
   }
   .vr {
-    margin-top: 42pc;
+    margin-top: 2pc;
+    margin-left: 4%;
   }
   .tp {
     margin-top: -2pc;
@@ -1175,22 +1187,22 @@ padding-left: 30%;
     width: 11pc;
   }
   .ry {
-    margin-left: -17pc;
+    margin-left: -3pc;
   }
   .ig p {
-    padding-left: 36pc;
+    padding-left: 31pc;
   }
   .ig {
     margin-left: -36pc;
   }
   .hg {
     position: relative;
-    left: 36pc;
+        left: 50%;
   }
   .id {
     margin-left: 6pc;
     margin-top: 2pc;
-    width: 19pc;
+    width: 15pc;
     height: 35px;
   }
   .jg {
@@ -1225,68 +1237,59 @@ padding-left: 30%;
     margin-bottom: 1pc;
   }
   .oe {
-    position: relative;
-    left: -17pc;
+    margin-left: -30%;
   }
   .ref {
-    position: relative;
-    left: -18pc;
-    width: 83%;
+    padding-top: 45%;
+    font-size: 18px;
+    margin-left: -65%;
   }
   .or {
-    margin-left: -27pc;
-    width: 86%;
-    font-size: 1pc;
-    position: relative;
-    left: 10pc;
+    width: 100%;
+    margin-left: -28%;
+  }
+  .design{
+    color: #e0e0e0;
   }
   .orv {
-    left: -22pc;
-    margin-left: 6pc;
-    position: relative;
-    top: -52pc;
+    width: 100%;
+    margin-left: -23%;
   }
   .beach h3 {
-    position: relative;
-    left: -16pc;
-    top: -62pc;
+    margin-left: -23%;
+    width: 97%;
+    padding-top: 10%;
   }
   .frg {
-    position: relative;
-    left: -17pc;
-    top: -57pc;
+    margin-left: -27%;
+    padding-top: 10%;
+    margin-top: -10%;
   }
   .beach h5 {
-    position: relative;
-    left: -15.5pc;
-    font-size: 1pc;
-    top: -13pc;
+    margin-top: -18%;
+    margin-left: -20%;
   }
   .stone {
-    position: relative;
-    left: -15pc;
-    top: -111pc;
-    width: 21pc;
+    width: 75%;
+    margin-left: -15%;
   }
   .org {
-    margin-left: 8pc;
-    position: relative;
-    left: -23pc;
-    top: -12pc;
+
     color: black;
+    width: 100%;
+    margin-left: -24%;
+    margin-top: -11%;
   }
   .hyu {
-    margin-left: -16pc;
-    position: relative;
-    top: -12.2pc;
+    margin-left: -24%;
+    padding-top: 27%;
   }
   .land {
-    position: relative;
-    left: -65pc;
-    top: 97pc;
-    height: 64pc;
+
     min-width: -webkit-fill-available;
-    margin-left: -100px;
+        margin-top: 530%;
+        position: relative;
+        left: -97%;
   }
   .land img {
     position: relative;
@@ -1409,55 +1412,48 @@ padding-left: 30%;
     gap: 9pc;
   }
   .of {
-    position: relative;
-    top: 70pc;
-    left: -19pc;
+    height: 24pc;
+    margin-left: -54%;
   }
   .orv1 {
-    position: relative;
-    margin-left: 6pc;
-    left: -22pc;
-    top: -29pc;
+    width: 100%;
+    margin-left: -23%;
   }
   .beach h6 {
-    position: relative;
-    left: -16pc;
+
     font-size: 1pc;
+    margin-left: -23%;
   }
   .orw {
-    margin-left: 9pc;
-    position: relative;
-    left: -25pc;
+    width: 100%;
+    margin-left: -23%;
   }
   .orv0 {
-    margin-left: 10pc;
-    position: relative;
-    left: -26pc;
-    top: 25pc;
+    color: #666;
+    width: 100%;
+    margin-left: -23%;
   }
   .kbt {
-    position: relative;
-    left: -16pc;
-    gap: 5pc;
+
     font-size: 2pc;
-    top: -15pc;
+    gap: 15%;
+    margin-top: -30%;
+    margin-left: -10%;
   }
   .ohj {
-    position: relative;
-    left: -20pc;
-    top: -16pc;
+    margin-left: -25%;
   }
   .orf {
     padding-left: 64px;
   }
   .ohj i {
-    position: relative;
-    left: -10pc;
+    margin-left: -4%;
   }
   .klw {
-    position: relative;
-    left: -20pc;
-    top: -42pc;
+    margin-left: -43%;
+    hr{
+      margin-left: 43%;
+    }
   }
   .tre {
     margin-left: 5pc;
