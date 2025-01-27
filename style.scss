@@ -20,7 +20,7 @@ li {
       center;flex: 1;
         font-size: 10px;
         position: fixed;
-        top: 2%;
+        top: 1%;
         width: 100%;
         z-index: 999;
   }
@@ -362,7 +362,7 @@ h1 {
   display: flex
   ;
       justify-content: center;
-      gap: 2%;
+      gap: 6%;
       .gr p {
         padding-right: 24%;
       }
@@ -1031,7 +1031,7 @@ padding-left: 30%;
     }
 
     .lof {
-      margin-left: 21%
+      margin-left: 25%
     }
   }
   .hp0 {
@@ -1147,8 +1147,15 @@ padding-left: 30%;
   .gr{
     flex-direction: column;
   }
+  .sxw{
+    padding-top: 28%;
+    margin-left: -10%;
+  }
   .gr-img1{
     margin-left: -48%;
+  }
+  .zx{
+    height: 17%;
   }
   .gr1{
     margin-left: 9%;
@@ -1304,36 +1311,34 @@ padding-left: 30%;
     left: 5pc;
   }
   .tya {
-    position: relative;
-    left: -11pc;
+    margin-left: -45%;
   }
   .cls {
     display: none;
   }
+  .cv{
+    margin-top: -250%;
+  }
+  .zx{
+    height: 14%;
+    margin-left: 10%;
+    margin-top: -20%;
+  }
   .sct {
-    position: relative;
-    top: 10pc;
+    padding-top: 70%;
+    margin-left: -15%;
   }
   .urx {
-    position: relative;
-    top: 10pc;
-    left: 5pc;
+    margin-bottom: 33%;
+    margin-top: -22%;
   }
   .hru {
-    margin-left: -8pc;
-    padding-left: 19pc;
-    position: relative;
-    left: -79px;
-    top: 6pc;
+    margin-top: -30%;
+    padding-left: 9%;
   }
   .harm {
-    position: relative;
-    left: 10pc;
-    top: 6pc;
-    padding: 0px;
-    margin-left: -36pc;
-    position: relative;
-    top: 8pc;
+    width: 41%;
+    margin-bottom: 5%;
   }
   .leg {
     padding-left: 32px;
@@ -1342,14 +1347,12 @@ padding-left: 30%;
     display: none;
   }
   .xz {
-    position: relative;
-    left: 2pc;
-    top: -47pc;
+    width: 75%;
+    margin-left: -21%;
   }
   .vb {
-    position: relative;
-    left: -40pc;
-    top: -22pc;
+    margin-left: -150%;
+    margin-top: -150%;
   }
   .wt {
     font-size: 19px;
@@ -1393,7 +1396,7 @@ padding-left: 30%;
   .peq {
     flex-direction: column;
     gap: 2pc;
-    padding-top: 2pc;
+    margin-top: -37%;
   }
   .peq img {
     width: 6pc;
@@ -1454,6 +1457,9 @@ padding-left: 30%;
     hr{
       margin-left: 43%;
     }
+  }
+  .ps hr{
+    margin-left: 5%;
   }
   .tre {
     margin-left: 5pc;
