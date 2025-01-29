@@ -981,10 +981,7 @@ padding-left: 30%;
   position: relative;
   top: -4pc;
 }
-.lof h2 {
-  position: relative;
-  left: -2pc;
-}
+
 .ln {
   position: relative;
   left: -23pc;
@@ -1010,28 +1007,28 @@ padding-left: 30%;
     margin-left: -2%;
   }
   .search-nav {
-    flex-direction: column;
-    padding: 0 20px;
+    justify-content: center;
     nav {
       flex-grow: 0;
+      padding-left: 5%;
     }
     ul {
       gap: 2pc;
-      margin-top: -12%;
+      margin-top: 1%;
       margin-left: -80%;
     }
     .search {
-      width: 90%;
-      margin-left: -37pc;
-      position: relative;
-      top: 3.5pc;
+      display: none;
     }
     .search input {
       width: 100%;
     }
 
     .lof {
-      margin-left: 25%
+      margin-left: 25%;
+    }
+    .lof h2{
+      margin-left: -282%;
     }
   }
   .hp0 {
@@ -1372,8 +1369,11 @@ padding-left: 30%;
     width: 266px;
     height: 51px;
     font-size: 21px;
-    margin-top: 20px;
+    
     margin-left: -5pc;
+  }
+  .ola{
+        margin-bottom: 10%;
   }
   .er {
     margin-top: 50pc;

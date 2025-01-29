@@ -1119,11 +1119,6 @@ button:hover {
   top: -4pc;
 }
 
-.lof h2 {
-  position: relative;
-  left: -2pc;
-}
-
 .ln {
   position: relative;
   left: -23pc;
@@ -1151,28 +1146,28 @@ button:hover {
     margin-left: -2%;
   }
   .search-nav {
-    flex-direction: column;
-    padding: 0 20px;
+    justify-content: center;
   }
   .search-nav nav {
     flex-grow: 0;
+    padding-left: 5%;
   }
   .search-nav ul {
     gap: 2pc;
-    margin-top: -12%;
+    margin-top: 1%;
     margin-left: -80%;
   }
   .search-nav .search {
-    width: 90%;
-    margin-left: -37pc;
-    position: relative;
-    top: 3.5pc;
+    display: none;
   }
   .search-nav .search input {
     width: 100%;
   }
   .search-nav .lof {
     margin-left: 25%;
+  }
+  .search-nav .lof h2 {
+    margin-left: -282%;
   }
   .hp0 {
     width: 150%;
@@ -1508,8 +1503,10 @@ button:hover {
     width: 266px;
     height: 51px;
     font-size: 21px;
-    margin-top: 20px;
     margin-left: -5pc;
+  }
+  .ola {
+    margin-bottom: 10%;
   }
   .er {
     margin-top: 50pc;
